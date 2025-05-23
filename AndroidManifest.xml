@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/sitelogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/sitelogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InvoicePro.NoActionBar"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".WishlistActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VetrifiedTileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VetrifiedaddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WalladdActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FlooraddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FloorTileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProductActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WallTileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".InvoiceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NewBillActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NewBillCustomerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SetupPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BillActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DBHelper"
+            android:exported="true" />
+        <activity
+            android:name=".WalltileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".indexActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
